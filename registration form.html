@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="ÜTF-8">
+        <meta name="viewport" content=""width=device-width, initial-scale="1.0">
+        <title>Registration Form</title>
+        <style>
+            body {
+              background-image: url('http://wallpapercave.com/wp/ASDT1Gk.jpg');
+            }
+        </style>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <h1>HTML FORM</h1>
+        <h2>Registration For An Gaming Event</h2>
+        <img src="https://media4.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e478by3phveh5u7t8ycrwiy5ga9i6oyeqjibd6eilnv&rid=giphy.gif&ct=g" alt=" " width="410" height="430" align="right">
+        <div class="center">
+        <form>
+            <br><br>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname"  placeholder="Enter your fname"  ><br><br>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Enter your fname"  ><br><br>
+
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday" placeholder="Enter your DOB"required><br><br>
+
+            <label >Gender:</label>
+            <input type="radio" id="female" name="Gender" >
+            <label for="female">Female</label>
+            <input type="radio" id="male" name="Gender" >
+            <label for="male">Male</label>
+            <input type="radio" id="others" name="Gender" >
+            <label for="others">Others</label><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <label>Languages Known:</label>
+            <input type="checkbox" id="lang" name="lang" value="Hindi">
+            <label for="Hindi">Hindi</label>
+            <input type="checkbox" id="lang" name="lang" value="Telugu">
+            <label for="Telugu">Telugu</label>
+            <input type="checkbox" id="lang" name="lang" value="English">
+            <label for="English">English</label><br><br>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your Username"required><br><br>
+
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="pwd" placeholder="Enter your password"  oninvalid="alert('You must fill out the form!');" required><br><br><br>
+            <input type="submit" value="Submit" onclick="alert('Submited successfully :')">
+           
+
+          </form>
+         
+        </div>
+    </body>
+    

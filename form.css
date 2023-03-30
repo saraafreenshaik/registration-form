@@ -1,0 +1,62 @@
+.body  {
+    /*background-image: url("https://images.pexels.com/photos/461940/pexels-photo-461940.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");*/
+   color: none;
+  }
+  h1 {
+    color: rgb(239, 243, 243);
+    text-align: center;
+    font-style: oblique;
+  }
+  h2{
+    color: rgb(239, 241, 241);
+    text-align: center;
+    font-style: oblique;
+  }
+  img{
+    display: flex;
+  }
+ 
+
+  div { 
+    position: absolute;
+    text-align: center;
+    color: ivory;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-style:oblique ;
+  }
+
+  
+.center{
+    margin: auto;
+    width: 1230px;
+    height: 400px;
+    border: 10px ridge;/*border-style:ridge; border-width: 10px; margin: 30px;*/
+    border-color: rgb(252, 252, 252);
+    text-align: center;
+    padding: 10px;
+}
+
+ /*  div.centered{
+    margin: 0 auto;
+    text-align: left;
+    width: 800px;
+  }
+  image  gif https://media4.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e478by3phveh5u7t8ycrwiy5ga9i6oyeqjibd6eilnv&rid=giphy.gif&ct=g
+  */
+ 
+  /* to insert viedo and image.
+  <div style="text-align:center"> 
+            <button onclick="playPause()">Play/Pause</button> 
+            <button onclick="makeBig()">Big</button>
+            <button onclick="makeSmall()">Small</button>
+            <button onclick="makeNormal()">Normal</button>
+            <br><br>
+            <video id="video1" width="420">
+              <source src="mov_bbb.mp4" type="video/mp4">
+              <source src="mov_bbb.ogg" type="video/ogg">
+              Your browser does not support HTML video.
+            </video>
+            <img src="https://media4.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e478by3phveh5u7t8ycrwiy5ga9i6oyeqjibd6eilnv&rid=giphy.gif&ct=g" alt=" " width="350" height="350" align="right">
+             
+              alert message <input type="text" oninvalid="alert('You must fill out the form!');" name="fname" required>
+            </div>*/
